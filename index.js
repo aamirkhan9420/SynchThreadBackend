@@ -8,7 +8,6 @@ const { userRouter } = require("./routes/user.route")
 
 const { authentication } = require("./middleware/authentication")
 const { mapsRoute } = require("./routes/dashboard.route")
-
 app.use(cors({
     origin:"*"
 }))
